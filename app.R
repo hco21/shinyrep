@@ -71,9 +71,9 @@ library(shiny)
 library(ggplot2)
 library(plotly)
 library(dplyr)
+library(tidyverse)
 
-
-SAMS <- read_csv("C:/Users/holej/Documents/danl-310-classnotes/SAM_dataset.csv")
+SAMS <- read_csv("C:/Users/holej/Documents/shinyrep/SAM_dataset.csv")
 
 
 SAMS <- SAMS |>

@@ -73,7 +73,7 @@ library(plotly)
 library(dplyr)
 library(tidyverse)
 
-SAMS <- read_csv("C:/Users/holej/Documents/shinyrep/SAM_dataset.csv")
+SAMS <- read_csv("SAM_dataset.csv")
 
 
 SAMS <- SAMS |>
